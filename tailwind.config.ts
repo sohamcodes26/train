@@ -57,6 +57,36 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Railway System Colors
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        railway: {
+          orange: "hsl(var(--railway-orange))",
+          blue: "hsl(var(--railway-blue))",
+          steel: "hsl(var(--railway-steel))",
+        },
+        control: {
+          panel: "hsl(var(--control-panel))",
+        },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-control': 'var(--gradient-control)',
+        'gradient-accent': 'var(--gradient-accent)',
+      },
+      boxShadow: {
+        'control': 'var(--shadow-control)',
+        'elevated': 'var(--shadow-elevated)',
+        'glow': 'var(--shadow-glow)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
       },
       borderRadius: {
         lg: "var(--radius)",
