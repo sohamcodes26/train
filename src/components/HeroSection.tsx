@@ -50,9 +50,9 @@ export function HeroSection() {
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8 py-6 min-w-[200px]"
-              onClick={handleOpenDashboard}
+              onClick={() => navigate('/login')}
             >
-              Open Dashboard
+              Access Control System
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             

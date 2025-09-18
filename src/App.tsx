@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { RailwayLayout } from "@/components/RailwayLayout";
 import Index from "./pages/Index";
+import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Simulation from "./pages/Simulation";
 import Reports from "./pages/Reports";
@@ -22,6 +23,7 @@ const App = () => (
         <Routes>
           {/* Landing page without sidebar */}
           <Route path="/" element={<Index />} />
+          <Route path="/login" element={<Login />} />
           
           {/* Dashboard routes with sidebar layout */}
           <Route path="/dashboard" element={
